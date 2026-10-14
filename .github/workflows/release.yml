@@ -229,9 +229,9 @@ jobs:
           cp "$DMG" "$RUNNER_TEMP/appcast/"
           "$RUNNER_TEMP/sparkle/bin/generate_appcast" \
             --ed-key-file "$RUNNER_TEMP/sparkle_key" \
-            --download-url-prefix "https://github.com/allwiine/Reclaim/releases/download/$TAG/" \
-            --link "https://github.com/allwiine/Reclaim/releases" \
-            --full-release-notes-url "https://github.com/allwiine/Reclaim/releases/tag/$TAG" \
+            --download-url-prefix "https://github.com/allwiine/reclaim-macos/releases/download/$TAG/" \
+            --link "https://github.com/allwiine/reclaim-macos/releases" \
+            --full-release-notes-url "https://github.com/allwiine/reclaim-macos/releases/tag/$TAG" \
             -o "$RUNNER_TEMP/appcast/appcast.xml" \
             "$RUNNER_TEMP/appcast"
           rm "$RUNNER_TEMP/sparkle_key"

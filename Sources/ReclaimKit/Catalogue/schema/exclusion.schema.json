@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/allwiine/Reclaim/blob/main/Sources/ReclaimKit/Catalogue/schema/exclusion.schema.json",
+  "$id": "https://github.com/allwiine/reclaim-macos/blob/main/Sources/ReclaimKit/Catalogue/schema/exclusion.schema.json",
   "title": "Reclaim structural exclusion",
   "description": "Paths Reclaim structurally refuses to touch — credentials, settings and user data that live beside targeted caches. Entries are a ban list, not a scan list: a path here need not exist on disk. Each entry bans three things at once: the path itself, anything inside it, and any target that claims one of its ancestors. One file per entry under Catalogue/exclusions/<id>.json. Full guide: docs/CATALOGUE.md.",
   "type": "object",
