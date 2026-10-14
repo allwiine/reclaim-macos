@@ -9,7 +9,7 @@ Only the latest release receives security fixes.
 Please **do not** open a public issue for security problems. Use GitHub's
 private vulnerability reporting instead:
 
-**[Report a vulnerability](https://github.com/allwiine/Reclaim/security/advisories/new)**
+**[Report a vulnerability](https://github.com/allwiine/reclaim-macos/security/advisories/new)**
 (Security tab → "Report a vulnerability")
 
 You'll get a response within a week, usually much faster (this is a

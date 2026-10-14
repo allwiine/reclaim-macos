@@ -1,6 +1,6 @@
 # Reclaim
 
-[![CI](https://github.com/allwiine/Reclaim/actions/workflows/ci.yml/badge.svg)](https://github.com/allwiine/Reclaim/actions/workflows/ci.yml)
+[![CI](https://github.com/allwiine/reclaim-macos/actions/workflows/ci.yml/badge.svg)](https://github.com/allwiine/reclaim-macos/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Platform: macOS 26+](https://img.shields.io/badge/platform-macOS%2026%2B-lightgrey.svg)](#requirements)
 [![Website](https://img.shields.io/badge/website-reclaim--app.dev-8A2BE2.svg)](https://reclaim-app.dev/)
@@ -19,7 +19,7 @@ Built with **Swift 6.2**, **SwiftUI**, the **Observation** framework, strict con
 
 Download the latest `Reclaim-<version>.dmg` from
 [reclaim-app.dev](https://reclaim-app.dev/) or straight from
-[Releases](https://github.com/allwiine/Reclaim/releases/latest), open it and
+[Releases](https://github.com/allwiine/reclaim-macos/releases/latest), open it and
 drag Reclaim to Applications. The app is notarized and updates itself via
 Sparkle.
 
@@ -59,8 +59,8 @@ Items Reclaim should *not* delete itself (Docker's and OrbStack's VM disks, Coli
 The project is a Swift package that Xcode opens directly:
 
 ```bash
-git clone https://github.com/allwiine/Reclaim.git
-cd Reclaim
+git clone https://github.com/allwiine/reclaim-macos.git
+cd reclaim-macos
 open Package.swift        # then select the "Reclaim" scheme and Run
 # or, without Xcode's UI:
 swift run Reclaim
@@ -157,7 +157,7 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for the full design rationale.
 Contributions are welcome, new cleanup targets especially (one struct plus
 its name and summary strings in both language catalogues). Start with
 [CONTRIBUTING.md](CONTRIBUTING.md), or
-[propose a target](https://github.com/allwiine/Reclaim/issues/new?template=new_target.yml)
+[propose a target](https://github.com/allwiine/reclaim-macos/issues/new?template=new_target.yml)
 without writing any code. This project follows the
 [Contributor Covenant](CODE_OF_CONDUCT.md).
 

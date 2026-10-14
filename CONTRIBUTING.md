@@ -9,8 +9,8 @@ Swift required), and bug reports with good reproduction steps are gold.
 Requirements: macOS 26 (Tahoe), Xcode 26 (Swift 6.2 toolchain).
 
 ```bash
-git clone https://github.com/allwiine/Reclaim.git
-cd Reclaim
+git clone https://github.com/allwiine/reclaim-macos.git
+cd reclaim-macos
 swift build            # build
 swift run Reclaim      # run the app
 swift test             # run the test suite

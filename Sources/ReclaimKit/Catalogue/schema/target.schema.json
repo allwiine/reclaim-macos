@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/allwiine/Reclaim/blob/main/Sources/ReclaimKit/Catalogue/schema/target.schema.json",
+  "$id": "https://github.com/allwiine/reclaim-macos/blob/main/Sources/ReclaimKit/Catalogue/schema/target.schema.json",
   "title": "Reclaim cleanup target",
   "description": "One cleanable location (or delegated command): what the data is, where it lives, how risky it is to remove, and how Reclaim cleans it. One file per target under Catalogue/<category>/<id>.json. Full guide: docs/CATALOGUE.md.",
   "type": "object",
